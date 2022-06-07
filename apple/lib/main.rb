@@ -13,5 +13,6 @@ def story
   first + middle + conclusion
 end
 
-def middle(middle)
+def middle
+  middle << "\n"
 end
